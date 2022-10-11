@@ -296,3 +296,15 @@ button.lm:hover {
   background-color: #ea0255;
   box-sizing: border-box;
 }
+.mobile {
+    display: none;
+    font-family:serif;
+}
+@media (max-width: 760px) {
+    .fwh-slide {
+      display: none;
+    }
+    .mobile {
+      display:block;
+    }
+}
