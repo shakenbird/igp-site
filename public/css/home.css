@@ -207,7 +207,7 @@ p1 {
 .fwh-slide {
   height: 100vh;
   background-color: #292929;
-  background-image: url('./section1.svg');
+  background-image: url('../section1.svg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -215,7 +215,7 @@ p1 {
   box-sizing: border-box;
 }
 .fwh-slide--bg-wave {
-  background: url('./wave.svg');
+  background: url('../wave.svg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
