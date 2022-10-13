@@ -9,59 +9,51 @@
  </head>
  <body>
    
-   <section class="fwh-slide">
-   <nav class="navbar">
-     <!-- LOGO -->
-     <div class="logo"><p class="blue">I</p><p class="green">G</p><p class="red">P</p></div>
-     <!-- NAVIGATION MENU -->
-     <ul class="nav-links">
-       <!-- USING CHECKBOX HACK -->
-       <input type="checkbox" id="checkbox_toggle" />
-       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-       <!-- NAVIGATION MENUS -->
-       <div class="menu">
-         <li><a href="/">Home</a></li>
-         <li><a href="#learn">About</a></li>
-         <li><a href="/">Contact</a></li>
-       </div>
-     </ul>
-   </nav>
-   <div class="title">
-      <h1>Your place to start.</h1>
-     <p1>Imaging Gaming Play provides tutorials and encourages aspiring developers. </p1>  
-     <a href="#learn"><button class="lm">Learn More</button></a>
-    </div>
-   </section>
-
-   
-   <section class="fwh-slide fwh-slide--bg-wave" id="learn">
-     <div style="background-image: linear-gradient(#000, #000);background-size: 2px 100%;background-repeat: no-repeat;background-position: center center;"></div>
-     <div class="learn" id="learn">
-     <center>
-     <h1 class="ss">Learn to <emp id="code">code</emp> here<under id="under">_</under></h1>
-    </center>
-       <center>
-        <p1>Check out the IGP YouTube channel for tutorials, and join our Discord server for a great programming community!</p1>
-         <div class="events">
-         <p1 class="up">Upcoming Events</p1>
-         <ion-icon class="arrow" name="calendar-outline"></ion-icon>
-         </div>
-       </center>
-       <center>
-         <ion-icon class="learn" name="logo-discord"></ion-icon>
-         <ion-icon class="learn--outline" name="logo-youtube"></ion-icon>
-         </center>
+  <section class="fwh-slide">
+    <nav class="navbar">
+      <!-- LOGO -->
+      <a href="/"><div class="logo"><p class="blue">I</p><p class="green">G</p><p class="red">P</p></div></a>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="#learn">About</a></li>
+          <li><a href="/">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
+    <div class="title">
+       <h1>Your place to start.</h1>
+      <p1>Imaging Gaming Play provides tutorials and encourages aspiring developers. </p1>  
+      <a href="#learn"><button class="lm">About</button></a>
+      <a href="#learn"><button class="lm lm--events">Events</button></a>
      </div>
-   </section>
-   <section class="mobile">
-    Device Incompatible. Enable desktop mode to view. (contact developers for more info)
-  </section>
-
-   <!--
-  <section class="footer">
-    footer
-  </section>
-   -->
+    </section>
+ 
+    
+    <section class="fwh-slide fwh-slide--bg-wave" id="learn">
+      <div class="learn" id="learn">
+      <center>
+      <h1 class="ss">Learn to <emp id="code">code</emp> here<under id="under">_</under></h1>
+     </center>
+        <center>
+         <p1>Check out the IGP YouTube channel for tutorials, and join our Discord server for a great programming community!</p1>
+          <div class="events">
+          <p1 class="up">Upcoming Events</p1>
+          <ion-icon class="arrow" name="calendar-outline"></ion-icon>
+          </div>
+        </center>
+        <center>
+          <ion-icon class="learnbtn" name="logo-discord"></ion-icon>
+          <ion-icon class="learn--outline" name="logo-youtube"></ion-icon>
+          </center>
+      </div>
+ 
+    </section>
    
    <script src="./js/home.js"></script>
    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

@@ -88,12 +88,15 @@ input[type=checkbox]{
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 1500px) {
 .menu { 
+  background-color: #303030;
  display:none;
  position: absolute;
- right: 0;
- left: 0;
+  float:right;
+  right: 25px;
+  margin-top: 12px;
  text-align: center;
  padding: 16px 0;
+  border-radius: 8px;
 }
 .menu li:hover {
  display: inline-block;
@@ -109,7 +112,11 @@ input[type=checkbox]:checked ~ .menu{
 .hamburger {
  display: block;
 }
+.hamburger:hover {
+  cursor: pointer;
+}
 .dropdown {
+  background-color: #303030;
  left: 50%;
  top: 30px;
  transform: translateX(35%);
@@ -135,23 +142,6 @@ p1 {
   bottom: -75px;
   font-size: 20px;
   color: #ffffff;
-}
-button.about {
-  position: absolute;
-  bottom: -150px;
-  padding: 15px 32px;
-  background-color: #fff;
-  font-size: 15px;
-  color: #000;
-  border: 2px solid #000;
-  border-radius: 20px;
-  transition-duration: 0.2s;
-  cursor: pointer;
-}
-button.about:hover {
-  background-color: #788eff;
-  color: white;
-  border: 2px solid #788eff;
 }
 div.about {
   position: relative;
@@ -186,10 +176,6 @@ p.green {
 p.red {
   color: #ea0255;
 }
-div.title {
-  position: relative;
-  margin-left: 15vw;
-}
 h1 {
   font-size: 60px;
   font-weight: 600;
@@ -202,7 +188,7 @@ p1 {
   font-family: 'Outfit', sans-serif;
   bottom: -35px;
   font-size: 22.5px;
-  color: #e3e3e3;
+  color: #f2f2f2;
 }
 .fwh-slide {
   height: 100vh;
@@ -215,6 +201,7 @@ p1 {
   box-sizing: border-box;
 }
 .fwh-slide--bg-wave {
+  height: 100vh;
   background: url('../wave.svg');
   background-position: center center;
   background-repeat: no-repeat;
@@ -234,7 +221,7 @@ emp {
 button {
   font-family: 'Cabin', sans-serif;
 }
-ion-icon.learn {
+ion-icon.learnbtn {
   position: relative;
   display: inline-block;
   bottom: -150px;
@@ -276,35 +263,63 @@ div.events:hover {
 }
 button.lm {
   position: relative;
-  display: block;
+  display: inline-block;
   bottom: -100px;
   font-size: 17.5px;
   color: white;
   padding: 10px 40px;
   background: transparent;
   border-radius: 8px;
-  border: 2px solid #9900FF;
-  transition-duration: 0.3s;
+  border: 2px solid #02bbcc;
+  transition-duration: 0.25s;
 }
 button.lm:hover {
-  border: 2px solid #9900FF;
-  background-color:#9900FF;
+  background: #02bbcc;
+  border: 2px solid #02bbcc;
   cursor: pointer;
 }
-.footer {
-  height: 10vh;
-  background-color: #ea0255;
-  box-sizing: border-box;
+button.lm--events {
+  margin-left: 20px;
+  border: 2px solid #ea0255;
+}
+button.lm--events:hover {
+  background: #ea0255;
+  border: 2px solid #ea0255;
 }
 .mobile {
-    display: none;
-    font-family:serif;
+  display: none;
+  font-family:serif;
 }
 @media (max-width: 760px) {
-    .fwh-slide {
-      display: none;
-    }
-    .mobile {
-      display:block;
-    }
+  div.title {
+    position: relative;
+    margin-right:10px;
+    margin-left: 20px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .learn {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .fwh-slide--bg-wave {
+    background: #002233;
+  }
+}
+@media (max-width: 1250px) {
+  div.title {
+    margin-right:45vw;
+  }
+
+}
+@media (max-width: 750px) {
+  div.title {
+    position: relative;
+    margin: 0;
+    margin-left: 20px;
+  }
+  h1 {
+    font-size: 40px;
+  }
 }
