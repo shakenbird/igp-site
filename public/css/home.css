@@ -252,14 +252,7 @@ ion-icon.learn--outline {
 }
 div.events {
   color: #c9c9c9;
-}
-.up:hover {
-  text-decoration: underline;
-  color: #fff;
-}
-div.events:hover {
-  color: #fff;
-  cursor: pointer;
+  cursor: not-allowed;
 }
 button.lm {
   position: relative;
@@ -281,11 +274,9 @@ button.lm:hover {
 button.lm--events {
   margin-left: 20px;
   border: 2px solid #ea0255;
+  cursor: not-allowed;
 }
-button.lm--events:hover {
-  background: #ea0255;
-  border: 2px solid #ea0255;
-}
+
 .mobile {
   display: none;
   font-family:serif;
