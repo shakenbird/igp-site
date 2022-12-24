@@ -276,6 +276,9 @@ button.lm--events {
   border: 2px solid #ea0255;
   cursor: not-allowed;
 }
+button.lm--events:hover {
+  cursor: not-allowed;
+}
 
 .mobile {
   display: none;
