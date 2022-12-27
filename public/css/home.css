@@ -37,7 +37,7 @@ letter-spacing: 4px;
  font-size: 18px;
 }
 .menu li:hover {
- background-color: #5e5e5e;
+ background-color: #272727;
  border-radius: 5px;
  transition: 0.3s ease;
 }
@@ -65,7 +65,7 @@ letter-spacing: 4px;
  text-align: center;
 }
 .dropdown li:hover {
- background-color: #5e5e5e;
+ background-color: #272727;
 }
 .services:hover .dropdown {
  display: block;
@@ -117,7 +117,7 @@ input[type=checkbox]:checked ~ .menu{
  transform: translateX(35%);
 }
 .dropdown li:hover {
- background-color: #5e5e5e;
+ background-color: #272727;
 }
 }
 pro {
