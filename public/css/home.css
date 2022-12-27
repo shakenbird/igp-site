@@ -163,7 +163,7 @@ p.red {
   color: #ea0255;
 }
 h1 {
-  font-size: 60px;
+  font-size: 47.5px;
   font-weight: 600;
   color: #ffffff;
   font-family: 'Nunito', sans-serif;
@@ -173,7 +173,7 @@ p1 {
   display: block;
   font-family: 'Nunito', sans-serif;
   bottom: -35px;
-  font-size: 17.5px;
+  font-size: 19.5px;
   color: #f2f2f2;
 }
 p1.about {
