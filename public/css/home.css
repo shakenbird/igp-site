@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-/* UTILITIES */
+
 * {
  margin: 0;
  padding: 0;
@@ -17,7 +17,7 @@ a {
 li {
  list-style: none;
 }
-/* NAVBAR STYLING STARTS */
+
 .navbar {
  display: flex;
  align-items: center;
@@ -28,13 +28,13 @@ li {
 .nav-links a {
  color: #ffffff;
 }
-/* LOGO */
+
 .logo {
  font-size: 34px;
 letter-spacing: 4px;
   font-weight: 700;
 }
-/* NAVBAR MENU */
+
 .menu {
  display: flex;
  gap: 1em;
@@ -48,14 +48,14 @@ letter-spacing: 4px;
 .menu li {
  padding: 5px 14px;
 }
-/* DROPDOWN MENU */
+
 .services {
  position: relative; 
 }
 .dropdown {
  background-color: #5e5e5e;
  padding: 1em 0;
- position: absolute; /*WITH RESPECT TO PARENT*/
+ position: absolute;
  display: none;
  border-radius: 8px;
  top: 35px;
@@ -74,18 +74,17 @@ letter-spacing: 4px;
 .services:hover .dropdown {
  display: block;
 }
-/*RESPONSIVE NAVBAR MENU STARTS*/
-/* CHECKBOX HACK */
+
 input[type=checkbox]{
  display: none;
 } 
-/*HAMBURGER MENU*/
+
 .hamburger {
  display: none;
  font-size: 24px;
  user-select: none;
 }
-/* APPLYING MEDIA QUERIES */
+
 @media (max-width: 1500px) {
 .menu { 
   background-color: #303030;
