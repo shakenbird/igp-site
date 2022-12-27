@@ -210,8 +210,9 @@ emp {
   color: #69d127;
 }
 .learn {
-  position: absolute;
+  position: relative;
   bottom: -150px;
+  background-color: #002233;
 }
 button {
   font-family: 'Cabin', sans-serif;
