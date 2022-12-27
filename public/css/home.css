@@ -266,6 +266,14 @@ button.lm--events {
   border: 2px solid #ea0255;
 }
 
+a.lm--join {
+  color: #fff;
+}
+a.lm--join:hover {
+  text-decoration: underline;
+}
+
+
 .mobile {
   display: none;
   font-family:serif;
