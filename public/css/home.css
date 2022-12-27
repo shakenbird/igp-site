@@ -210,7 +210,7 @@ emp {
   color: #69d127;
 }
 .learn {
-  position: relative;
+  position: absolute;
   bottom: -150px;
 }
 button {
