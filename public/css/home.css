@@ -196,7 +196,7 @@ p1 {
   box-sizing: border-box;
 }
 .fwh-slide--bg-wave {
-  position: relative;
+  position: absolute;
   height: 100vh;
   background: url('../wave.svg');
   background-position: center center;
