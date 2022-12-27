@@ -196,6 +196,7 @@ p1 {
   box-sizing: border-box;
 }
 .fwh-slide--bg-wave {
+  position: relative;
   height: 100vh;
   background: url('../wave.svg');
   background-position: center center;
@@ -212,8 +213,6 @@ emp {
 .learn {
   position: relative;
   bottom: -150px;
-  background-color: #002233;
-  height: 1080px;
 }
 button {
   font-family: 'Cabin', sans-serif;
