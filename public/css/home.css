@@ -132,12 +132,6 @@ div.title {
 h1 {
   font-size: 55px;
 }
-p1 {
-  position: absolute;
-  bottom: -75px;
-  font-size: 20px;
-  color: #ffffff;
-}
 div.about {
   position: relative;
   margin-top: 5%;
@@ -149,10 +143,7 @@ h2 {
   font-size: 40px;
   bottom: -100px;
 }
-p1.about {
-  bottom: -150px;
-  color: #222;
-}
+
 hr {
   height: 1px;
   background-color: #e3e3e3;
@@ -182,8 +173,12 @@ p1 {
   display: block;
   font-family: 'Nunito', sans-serif;
   bottom: -35px;
-  font-size: 22.5px;
+  font-size: 17.5px;
   color: #f2f2f2;
+}
+p1.about {
+  bottom: -150px;
+  color: #222;
 }
 .fwh-slide {
   height: 100vh;
