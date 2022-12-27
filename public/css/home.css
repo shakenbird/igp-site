@@ -1,14 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
 }
 body {
- font-family: 'Outfit', sans-serif;
+  font-family: 'Nunito', sans-serif;
   margin: 0;
 }
 a {
@@ -179,12 +175,12 @@ h1 {
   font-size: 60px;
   font-weight: 600;
   color: #ffffff;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 p1 {
   position: relative;
   display: block;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Nunito', sans-serif;
   bottom: -35px;
   font-size: 22.5px;
   color: #f2f2f2;
