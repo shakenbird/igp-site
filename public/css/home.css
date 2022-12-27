@@ -268,7 +268,7 @@ button.lm--events {
 
 a.lm--join {
   font-weight: bold;
-  text-decoration-color: #fff;
+  color: #ea0255;
 }
 a.lm--join:hover {
   text-decoration: underline;
