@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(initial_path, "home.html"));
 })
 
+app.get('/staff', (req, res) => {
+    res.sendFile(path.join(initial_path, "staff.html"));
+})
+
 app.use((req, res) => {
     res.json("404");
 })
