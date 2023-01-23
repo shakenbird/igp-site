@@ -264,7 +264,11 @@
    margin-left: 20px;
    border: 2px solid #ea0255;
  }
- 
+ button.lm:events {
+  background: #ea0255;
+  border: 2px solid #ea0255;
+  cursor: pointer;
+}
  a.lm--join {
    font-weight: bold;
    color: #02bbcc;
