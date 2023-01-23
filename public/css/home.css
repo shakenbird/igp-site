@@ -290,6 +290,7 @@
    .learn {
      margin-left: 25px;
      margin-right: 25px;
+     bottom: -75px;
    }
    .fwh-slide--bg-wave {
      background: #002233;
@@ -306,9 +307,17 @@
      position: relative;
      margin: 0;
      margin-left: 20px;
+     bottom: -100px;
    }
    h1 {
      font-size: 40px;
    }
  }
- 
+ p3 {
+   font-size: 17.5px;
+   color: #ffffff;
+   font-family: 'Nunito', sans-serif;
+   position: relative;
+   left:0px;
+   bottom:0px;
+ }
