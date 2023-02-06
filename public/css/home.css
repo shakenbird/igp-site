@@ -301,6 +301,11 @@
    .fwh-slide--bg-wave {
      background: #002233;
    }
+   iframe {
+    width: 335px;
+    height: 210px;
+   }
+    
  }
  @media (max-width: 1250px) {
    div.title {
@@ -327,3 +332,8 @@
    left:0px;
    bottom:0px;
  }
+ iframe {
+  width: 373.33px;
+  height: 210px;
+ }
+  
